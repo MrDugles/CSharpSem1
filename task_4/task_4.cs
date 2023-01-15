@@ -18,11 +18,3 @@ if (number1 > number2 && number1 > number3)
     else
     Console.WriteLine ($"{number1}, {number2}, {number3} -> {number3}");
 
-/*
-if (number1 > number2 && number1 > number3)
-    Console.WriteLine ("1-е число '" + number1 + "' больше");
-    else if (number2 > number3)
-    Console.WriteLine ("2-е число '" + number2 + "' больше");
-    else
-    Console.WriteLine ("3-е число '" + number3 + "' больше");
-*/
