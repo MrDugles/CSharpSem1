@@ -10,8 +10,8 @@ Console.Write("Введите 2-е число: ");
 int number2 = int.Parse(Console.ReadLine());
 
 if (number1 > number2)
-    Console.WriteLine ("1-е число '" + number1 + "' больше");
+    Console.WriteLine ($"a = {number1}; b = {number2} -> max = {number1}");
     else
-    Console.WriteLine ("2-е число '" + number2 + "' больше");
+    Console.WriteLine ($"a = {number1}; b = {number2} -> max = {number2}");
 
 
